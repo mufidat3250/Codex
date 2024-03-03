@@ -1,0 +1,21 @@
+.review-wrapper{
+        
+    h1{
+        text-align: center;
+        font-size: 2.75rem;
+        color: #060E1A;
+    }
+    p{
+        max-width:41.875rem;
+        font-size: 1.25rem;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 1.879rem;
+        margin-bottom: 3.75rem;
+    }
+    .reviews{
+        background-image: url('/images/map.png');
+        background-repeat: no-repeat;
+        height: 60vh;
+    }
+}

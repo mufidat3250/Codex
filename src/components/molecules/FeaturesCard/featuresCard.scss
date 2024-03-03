@@ -1,0 +1,43 @@
+.features-style{
+    padding: 2.5rem 0.5rem;
+    // box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    box-shadow: 0 3px 10px rgba(6, 14, 26, 0.05);
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.125rem;
+    justify-content: center;
+    background-color: white;
+}
+.iconwrapper{
+    height: 9.875rem;
+    width: 9.875rem;
+    border-radius: 100%;
+    background-color: #14A89F;
+    display: grid;
+    place-items: center;
+}
+
+.features-style h3{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5625rem;
+    font-weight: 500;
+}
+.features-style .desc{
+    width: 15rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #51565E;
+    text-align: center;
+    height: 7rem;
+}
+.pointer{
+    display: flex;
+    justify-content: center;
+}

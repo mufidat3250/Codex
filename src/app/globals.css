@@ -1,33 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+*{
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.container{
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.hero-section{
+  height: 100vh;
+  width: 100%;
+  background-image: url('/images/bgImage.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-wrapper{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media (max-width:1024px) {
+  .container{
+      max-width: 95%;
+  }
+
+
+}
+
+@media (max-width:900px) {
+  .header-wrapper{
+  padding-top: 1.5rem;
+  }
+  .hero-section{
+    height: 70vh;
+    width: 100%;
+    background-image: none;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@media (max-width:800px) {
+  .header-wrapper{
+  padding-top: 1.5rem;
   }
 }
+

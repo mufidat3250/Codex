@@ -1,0 +1,138 @@
+.newsCard-wrapper{
+    max-width: 34.68rem;
+    
+    .creative{
+        margin-top: 1.875rem;
+        margin-top: 1rem;
+        font-size: 1rem;
+        font-weight: 400;
+        color:#51565E;
+    }
+    .date{
+        max-width: 15.75rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 500;
+        color: #060E1A;
+        margin-bottom: 1.25rem;
+    }
+    .running-remmote{
+        h3{
+            color: #060E1A;
+            font-size: 1.375rem;
+            font-weight: 500;
+            margin-bottom: 1.25rem;
+        }
+        p{
+            max-width: 21.1875rem;
+            font-size: 14px;
+            font-weight: 400;
+            color: #51565E;
+            margin-bottom: 1.5625rem;
+        }
+
+    }
+    .button-container{
+        width: 8.4375rem;
+    }
+}
+@media (max-Width:1024px) {
+    .newsCard-wrapper{
+        max-width: 25.68rem;
+        
+        .creative{
+            margin-top: 1.875rem;
+            margin-top: 1rem;
+            font-size: 1rem;
+            font-weight: 400;
+            color:#51565E;
+        }
+        .date{
+            max-width: 14.75rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+            font-weight: 500;
+            color: #060E1A;
+            margin-bottom: 0.5rem;
+        }
+        .running-remmote{
+            h3{
+                color: #060E1A;
+                font-size: 1.2em;
+                font-weight: 500;
+                margin-bottom: 0.5rem;
+            }
+            p{
+                max-width: 21.1875rem;
+                font-size: 14px;
+                font-weight: 400;
+                color: #51565E;
+                margin-bottom: 1.5625rem;
+            }
+    
+        }
+        .button-container{
+            width: 8.4375rem;
+        }
+    }
+}
+
+@media (max-Width:900px) {
+    .newsCard-wrapper{
+        max-width: 25.68rem;
+        display: flex;
+        flex-direction: column;
+        
+        .creative{
+            margin-top: 1.875rem;
+            margin-top: 1rem;
+            font-size: 1rem;
+            font-weight: 400;
+            color:#51565E;
+            text-align: center;
+        }
+        .date{
+            max-width: 14.75rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+            font-weight: 500;
+            color: #060E1A;
+            margin: 0 auto;
+            margin-bottom: 0.5rem;
+            gap: 2rem;
+
+        }
+        .running-remmote{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            h3{
+                color: #060E1A;
+                font-size: 1.2em;
+                font-weight: 500;
+                margin-bottom: 0.5rem;
+                text-align: center;
+            }
+            p{
+                max-width: 21.1875rem;
+                font-size: 14px;
+                font-weight: 400;
+                color: #51565E;
+                margin-bottom: 1.5625rem;
+                text-align: center;
+            }
+    
+        }
+        .button-container{
+            width: 8.4375rem;
+            align-self: center;
+        }
+    }
+}
