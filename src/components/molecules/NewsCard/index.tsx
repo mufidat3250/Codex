@@ -26,7 +26,7 @@ const NewsCard = ({img, team, date, name, title, desc}:InewsCard) => {
                 </div>
                 <div className='running-remmote'>
                     <h3>{title}</h3>
-                    <p>{desc}</p>
+                    <p className=' text-justify'>{desc}</p>
                 </div>
                 <div className='button-container'>
                     <Button title='Continue'/>

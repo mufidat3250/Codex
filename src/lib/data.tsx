@@ -127,8 +127,7 @@ export const news = [
         team:'Our Creative Team',
         date:'17 June, 2021',
         name:'by Stive Smithi',
-        desc:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. At nullam elit enim eget at vitae pellen
-        tesque malesuada et.`,
+        desc:`With a dynamic curriculum and hands-on learning approach, [Name of Coding Bootcamp] is revolutionizing how individuals acquire coding skills. Its supportive community and dedicated instructors provide a nurturing environment for learners to thrive and secure exciting career opportunities in the tech industry.`,
         img:'/images/news-img.png'
     },
     {
@@ -136,8 +135,12 @@ export const news = [
         team:'Create presentations',
         date:'17 June, 2021',
         name:'by Thomas lews',
-        desc:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. At nullam elit enim eget at vitae pellen
-        tesque malesuada et.`,
+        desc:`Codex pioneers a transformative approach to learning with its dynamic curriculum and hands-on projects. Empowering learners with essential coding skills and fostering a supportive community, it's reshaping the future of tech education. Stay tuned for the latest updates!
+
+
+
+
+        `,
         img:'/images/new-img2.png'
     },
 ]
